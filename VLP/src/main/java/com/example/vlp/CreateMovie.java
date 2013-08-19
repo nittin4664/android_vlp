@@ -1,33 +1,23 @@
 package com.example.vlp;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
-import android.view.View;
 
-public class MainActivity extends Activity {
+public class CreateMovie extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.create_movie);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
+        getMenuInflater().inflate(R.menu.create_movie, menu);
         return true;
     }
-
-    /* to add a new movie */
-    public void addMovies(View view)
-    {
-        Intent intent = new Intent(this, CreateMovie.class);
-        startActivity(intent);
-    }
-
     
 }

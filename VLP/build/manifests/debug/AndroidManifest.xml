@@ -10,6 +10,8 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:label="@string/title_activity_create_movie" android:name="com.example.vlp.CreateMovie">
+        </activity>
     </application>
 
 </manifest>

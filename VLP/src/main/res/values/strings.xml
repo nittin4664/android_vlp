@@ -3,6 +3,8 @@
 
     <string name="app_name">VLP</string>
     <string name="action_settings">Settings</string>
+    <string name="welcome">Welcome!</string>
+    <string name="title_activity_create_movie">addMovie</string>
     <string name="hello_world">Hello world!</string>
 
 </resources>
