@@ -30,7 +30,7 @@
         <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/movieNmae"
+                android:id="@+id/movieName"
                 android:layout_alignBottom="@+id/textView"
                 android:layout_toRightOf="@+id/textView"
                 android:autoText="true"
@@ -73,10 +73,20 @@
             android:layout_height="wrap_content"
             android:text="Save"
             android:id="@+id/submit"
-            android:onClick=""
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="15dp"
-            android:hint="save"/>
+            android:onClick="saveMovie"
+            android:hint="save"
+            android:layout_below="@+id/number"
+            android:layout_alignLeft="@+id/number"
+            android:layout_marginTop="35dp"/>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="500dp"
+            android:layout_below="@+id/submit"
+            android:gravity="bottom"
+            android:id="@+id/movieInfo"
+            android:layout_centerVertical="true">
+    </LinearLayout>
 
 </RelativeLayout>
